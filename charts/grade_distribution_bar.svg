@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-15T03:50:34.876818</dc:date>
+    <dc:date>2026-09-15T09:10:53.242405</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -30,10 +30,10 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 59.916563 395.99952 
-L 728.39952 395.99952 
-L 728.39952 49.1 
-L 59.916563 49.1 
+    <path d="M 51.975938 412.093583 
+L 728.39952 412.093583 
+L 728.39952 42.72 
+L 51.975938 42.72 
 z
 " style="fill: #ffffff"/>
    </g>
@@ -41,19 +41,19 @@ z
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m994a0f61c2" d="M 0 0 
+       <path id="mf3024e12b5" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m994a0f61c2" x="111.313463" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf3024e12b5" x="103.98336" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
       <!-- 0.0 -->
-      <g transform="translate(102.961744 418.29952) scale(0.18 -0.18)">
+      <g transform="translate(95.631641 428.166708) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-Bold-11" d="M 2234 1504 
+        <path id="THSarabunPSK-Bold-30" d="M 2234 1504 
 Q 2234 858 1965 400 
 Q 1696 -58 1197 -58 
 Q 717 -58 448 400 
@@ -74,7 +74,7 @@ Q 1517 294 1670 630
 Q 1824 966 1824 1504 
 z
 " transform="scale(0.015625)"/>
-        <path id="THSarabunPSK-Bold-f" d="M 858 250 
+        <path id="THSarabunPSK-Bold-2e" d="M 858 250 
 Q 858 122 768 32 
 Q 678 -58 550 -58 
 Q 422 -58 332 32 
@@ -86,23 +86,23 @@ Q 858 378 858 250
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-Bold-11"/>
-       <use xlink:href="#THSarabunPSK-Bold-f" transform="translate(37.796875 0)"/>
-       <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(55 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-30"/>
+       <use xlink:href="#THSarabunPSK-Bold-2e" transform="translate(37.799988 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(54.999985 0)"/>
       </g>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m994a0f61c2" x="192.1262" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf3024e12b5" x="185.756037" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
       <!-- 1.0 -->
-      <g transform="translate(183.774481 418.29952) scale(0.18 -0.18)">
+      <g transform="translate(177.404318 428.166708) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-Bold-12" d="M 1965 0 
+        <path id="THSarabunPSK-Bold-31" d="M 1965 0 
 L 614 0 
 L 614 326 
 L 1088 326 
@@ -117,23 +117,23 @@ L 1965 0
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-Bold-12"/>
-       <use xlink:href="#THSarabunPSK-Bold-f" transform="translate(37.796875 0)"/>
-       <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(55 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-31"/>
+       <use xlink:href="#THSarabunPSK-Bold-2e" transform="translate(37.799988 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(54.999985 0)"/>
       </g>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m994a0f61c2" x="272.938936" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf3024e12b5" x="267.528714" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
       <!-- 1.5 -->
-      <g transform="translate(264.587218 418.29952) scale(0.18 -0.18)">
+      <g transform="translate(259.176995 428.166708) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-Bold-16" d="M 2214 1075 
+        <path id="THSarabunPSK-Bold-35" d="M 2214 1075 
 Q 2214 576 1862 262 
 Q 1510 -51 954 -51 
 Q 480 -51 166 224 
@@ -156,23 +156,23 @@ Q 2214 1485 2214 1075
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-Bold-12"/>
-       <use xlink:href="#THSarabunPSK-Bold-f" transform="translate(37.796875 0)"/>
-       <use xlink:href="#THSarabunPSK-Bold-16" transform="translate(55 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-31"/>
+       <use xlink:href="#THSarabunPSK-Bold-2e" transform="translate(37.799988 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-35" transform="translate(54.999985 0)"/>
       </g>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m994a0f61c2" x="353.751673" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf3024e12b5" x="349.30139" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
       <!-- 2.0 -->
-      <g transform="translate(345.399954 418.29952) scale(0.18 -0.18)">
+      <g transform="translate(340.949672 428.166708) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-Bold-13" d="M 2227 0 
+        <path id="THSarabunPSK-Bold-32" d="M 2227 0 
 L 154 0 
 Q 205 282 262 461 
 Q 429 666 1280 1459 
@@ -192,38 +192,38 @@ L 2227 0
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-Bold-13"/>
-       <use xlink:href="#THSarabunPSK-Bold-f" transform="translate(37.796875 0)"/>
-       <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(55 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-32"/>
+       <use xlink:href="#THSarabunPSK-Bold-2e" transform="translate(37.799988 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(54.999985 0)"/>
       </g>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m994a0f61c2" x="434.56441" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf3024e12b5" x="431.074067" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
       <!-- 2.5 -->
-      <g transform="translate(426.212691 418.29952) scale(0.18 -0.18)">
-       <use xlink:href="#THSarabunPSK-Bold-13"/>
-       <use xlink:href="#THSarabunPSK-Bold-f" transform="translate(37.796875 0)"/>
-       <use xlink:href="#THSarabunPSK-Bold-16" transform="translate(55 0)"/>
+      <g transform="translate(422.722348 428.166708) scale(0.18 -0.18)">
+       <use xlink:href="#THSarabunPSK-Bold-32"/>
+       <use xlink:href="#THSarabunPSK-Bold-2e" transform="translate(37.799988 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-35" transform="translate(54.999985 0)"/>
       </g>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m994a0f61c2" x="515.377146" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf3024e12b5" x="512.846744" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
       <!-- 3.0 -->
-      <g transform="translate(507.025427 418.29952) scale(0.18 -0.18)">
+      <g transform="translate(504.495025 428.166708) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-Bold-14" d="M 2208 1056 
+        <path id="THSarabunPSK-Bold-33" d="M 2208 1056 
 Q 2208 557 1853 253 
 Q 1498 -51 922 -51 
 Q 486 -51 166 218 
@@ -251,38 +251,38 @@ Q 2208 1376 2208 1056
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-Bold-14"/>
-       <use xlink:href="#THSarabunPSK-Bold-f" transform="translate(37.796875 0)"/>
-       <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(55 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-33"/>
+       <use xlink:href="#THSarabunPSK-Bold-2e" transform="translate(37.799988 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(54.999985 0)"/>
       </g>
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_7">
       <g>
-       <use xlink:href="#m994a0f61c2" x="596.189883" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf3024e12b5" x="594.619421" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_7">
       <!-- 3.5 -->
-      <g transform="translate(587.838164 418.29952) scale(0.18 -0.18)">
-       <use xlink:href="#THSarabunPSK-Bold-14"/>
-       <use xlink:href="#THSarabunPSK-Bold-f" transform="translate(37.796875 0)"/>
-       <use xlink:href="#THSarabunPSK-Bold-16" transform="translate(55 0)"/>
+      <g transform="translate(586.267702 428.166708) scale(0.18 -0.18)">
+       <use xlink:href="#THSarabunPSK-Bold-33"/>
+       <use xlink:href="#THSarabunPSK-Bold-2e" transform="translate(37.799988 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-35" transform="translate(54.999985 0)"/>
       </g>
      </g>
     </g>
     <g id="xtick_8">
      <g id="line2d_8">
       <g>
-       <use xlink:href="#m994a0f61c2" x="677.002619" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf3024e12b5" x="676.392098" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_8">
       <!-- 4.0 -->
-      <g transform="translate(668.650901 418.29952) scale(0.18 -0.18)">
+      <g transform="translate(668.040379 428.166708) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-Bold-15" d="M 1466 1024 
+        <path id="THSarabunPSK-Bold-34" d="M 1466 1024 
 L 1466 2586 
 Q 1158 2387 912 1939 
 Q 666 1491 582 1024 
@@ -302,17 +302,17 @@ L 1875 0
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-Bold-15"/>
-       <use xlink:href="#THSarabunPSK-Bold-f" transform="translate(37.796875 0)"/>
-       <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(55 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-34"/>
+       <use xlink:href="#THSarabunPSK-Bold-2e" transform="translate(37.799988 0)"/>
+       <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(54.999985 0)"/>
       </g>
      </g>
     </g>
     <g id="text_9">
      <!-- ระดับผลการเรียน (เกรด) -->
-     <g style="fill: #111827" transform="translate(326.497104 449.79952) scale(0.2 -0.2)">
+     <g style="fill: #111827" transform="translate(322.526791 451.940145) scale(0.2 -0.2)">
       <defs>
-       <path id="THSarabunPSK-Bold-f8" d="M 1734 429 
+       <path id="THSarabunPSK-Bold-e23" d="M 1734 429 
 Q 1734 224 1590 86 
 Q 1446 -51 1242 -51 
 Q 1037 -51 893 89 
@@ -348,7 +348,7 @@ Q 1331 218 1395 282
 Q 1459 346 1459 435 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-105" d="M 1933 2541 
+       <path id="THSarabunPSK-Bold-e30" d="M 1933 2541 
 Q 1901 1523 979 1523 
 Q 595 1523 390 1680 
 Q 186 1837 186 2080 
@@ -393,7 +393,7 @@ Q 704 435 761 489
 Q 819 544 819 627 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-e9" d="M 2266 0 
+       <path id="THSarabunPSK-Bold-e14" d="M 2266 0 
 L 1869 0 
 L 1869 1715 
 Q 1869 1958 1686 2112 
@@ -435,7 +435,7 @@ Q 1331 1350 1385 1404
 Q 1440 1459 1440 1542 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-106" d="M 320 4115 
+       <path id="THSarabunPSK-Bold-e31" d="M 320 4115 
 Q 154 3053 -832 3053 
 Q -1216 3053 -1421 3209 
 Q -1626 3366 -1626 3610 
@@ -458,7 +458,7 @@ Q -1107 3418 -1049 3472
 Q -992 3526 -992 3610 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-ef" d="M 2522 576 
+       <path id="THSarabunPSK-Bold-e1a" d="M 2522 576 
 Q 2522 -51 1594 -51 
 Q 659 -51 659 576 
 L 659 1645 
@@ -489,7 +489,7 @@ Q 640 1901 704 1965
 Q 768 2029 768 2118 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-f1" d="M 2323 0 
+       <path id="THSarabunPSK-Bold-e1c" d="M 2323 0 
 L 1926 0 
 L 1286 1024 
 L 646 0 
@@ -521,7 +521,7 @@ Q 858 1901 922 1965
 Q 986 2029 986 2118 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-fa" d="M 2227 0 
+       <path id="THSarabunPSK-Bold-e25" d="M 2227 0 
 L 1830 0 
 L 1830 1107 
 Q 1830 1299 1613 1402 
@@ -563,7 +563,7 @@ Q 934 224 998 288
 Q 1062 352 1062 442 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-d6" d="M 2176 0 
+       <path id="THSarabunPSK-Bold-e01" d="M 2176 0 
 L 1779 0 
 L 1779 1696 
 Q 1779 1958 1619 2112 
@@ -583,7 +583,7 @@ Q 2176 2112 2176 1690
 L 2176 0 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-107" d="M 1824 0 
+       <path id="THSarabunPSK-Bold-e32" d="M 1824 0 
 L 1427 0 
 L 1427 1862 
 Q 1427 2042 1305 2154 
@@ -598,7 +598,7 @@ Q 1824 2240 1824 1869
 L 1824 0 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-111" d="M 1306 435 
+       <path id="THSarabunPSK-Bold-e40" d="M 1306 435 
 Q 1306 230 1162 89 
 Q 1018 -51 819 -51 
 Q 602 -51 454 96 
@@ -621,7 +621,7 @@ Q 909 218 973 282
 Q 1037 346 1037 435 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-10a" d="M -314 2880 
+       <path id="THSarabunPSK-Bold-e35" d="M -314 2880 
 Q -1107 3136 -1766 3136 
 Q -2067 3136 -2374 3098 
 Q -2298 3955 -1440 3955 
@@ -640,7 +640,7 @@ Q -1888 3386 -1658 3386
 Q -1184 3386 -723 3258 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-f7" d="M 2144 646 
+       <path id="THSarabunPSK-Bold-e22" d="M 2144 646 
 Q 2144 -51 1197 -51 
 Q 256 -51 256 646 
 L 256 941 
@@ -677,7 +677,7 @@ Q 922 1965 979 2022
 Q 1037 2080 1037 2170 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-ee" d="M 2445 1210 
+       <path id="THSarabunPSK-Bold-e19" d="M 2445 1210 
 Q 2445 954 2310 858 
 Q 2560 717 2560 429 
 Q 2560 224 2419 86 
@@ -724,8 +724,8 @@ Q 2163 211 2227 275
 Q 2291 339 2291 429 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-1f0" transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-9" d="M 1037 -352 
+       <path id="THSarabunPSK-Bold-20" transform="scale(0.015625)"/>
+       <path id="THSarabunPSK-Bold-28" d="M 1037 -352 
 Q 282 429 282 1504 
 Q 282 2509 1018 3392 
 L 1491 3392 
@@ -734,7 +734,7 @@ Q 678 557 1485 -352
 L 1037 -352 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-a" d="M 1274 1523 
+       <path id="THSarabunPSK-Bold-29" d="M 1274 1523 
 Q 1274 474 518 -352 
 L 77 -352 
 Q 877 602 877 1523 
@@ -744,53 +744,53 @@ Q 1274 2579 1274 1523
 z
 " transform="scale(0.015625)"/>
       </defs>
-      <use xlink:href="#THSarabunPSK-Bold-f8"/>
-      <use xlink:href="#THSarabunPSK-Bold-105" transform="translate(32.90625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-e9" transform="translate(66.90625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-106" transform="translate(107.40625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-ef" transform="translate(107.40625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-f1" transform="translate(151.90625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-fa" transform="translate(193.3125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-d6" transform="translate(233.21875 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-107" transform="translate(272.3125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(305.90625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-111" transform="translate(338.8125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(357.109375 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-10a" transform="translate(390.015625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-f7" transform="translate(390.015625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-ee" transform="translate(428.609375 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(471.90625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-9" transform="translate(494.5 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-111" transform="translate(518.90625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-d6" transform="translate(539.703125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(578.796875 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-e9" transform="translate(611.703125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-a" transform="translate(652.203125 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e23"/>
+      <use xlink:href="#THSarabunPSK-Bold-e30" transform="translate(32.899994 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e14" transform="translate(66.899979 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e31" transform="translate(107.399963 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e1a" transform="translate(107.399963 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e1c" transform="translate(151.899948 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e25" transform="translate(193.299942 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e01" transform="translate(233.199936 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e32" transform="translate(272.299927 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(305.899918 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e40" transform="translate(338.799911 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(357.099899 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e35" transform="translate(389.999893 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e22" transform="translate(389.999893 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e19" transform="translate(428.599884 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(471.899872 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-28" transform="translate(494.499863 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e40" transform="translate(518.899857 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e01" transform="translate(539.699844 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(578.799835 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e14" transform="translate(611.699829 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-29" transform="translate(652.199814 0)"/>
      </g>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_9">
-      <path d="M 59.916563 395.99952 
-L 728.39952 395.99952 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
+      <path d="M 51.975938 412.093583 
+L 728.39952 412.093583 
+" clip-path="url(#pf82fc3c00d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
      </g>
      <g id="line2d_10">
       <defs>
-       <path id="me6de9bf4a0" d="M 0 0 
+       <path id="m095b978f43" d="M 0 0 
 L -3.5 0 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#me6de9bf4a0" x="59.916563" y="395.99952" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m095b978f43" x="51.975938" y="412.093583" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_10">
       <!-- 0 -->
-      <g transform="translate(46.4 403.64952) scale(0.18 -0.18)">
+      <g transform="translate(38.459375 416.638583) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-11" d="M 2112 1453 
+        <path id="THSarabunPSK-30" d="M 2112 1453 
 Q 2112 922 1907 486 
 Q 1645 -70 1158 -70 
 Q 666 -70 403 486 
@@ -812,26 +812,26 @@ Q 1856 998 1856 1459
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-11"/>
+       <use xlink:href="#THSarabunPSK-30"/>
       </g>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_11">
-      <path d="M 59.916563 350.354846 
-L 728.39952 350.354846 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
+      <path d="M 51.975938 355.266878 
+L 728.39952 355.266878 
+" clip-path="url(#pf82fc3c00d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
      </g>
      <g id="line2d_12">
       <g>
-       <use xlink:href="#me6de9bf4a0" x="59.916563" y="350.354846" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m095b978f43" x="51.975938" y="355.266878" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_11">
       <!-- 1 -->
-      <g transform="translate(46.4 358.004846) scale(0.18 -0.18)">
+      <g transform="translate(38.459375 359.811878) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-12" d="M 1837 0 
+        <path id="THSarabunPSK-31" d="M 1837 0 
 L 621 0 
 L 621 230 
 L 1101 230 
@@ -846,26 +846,26 @@ L 1837 0
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-12"/>
+       <use xlink:href="#THSarabunPSK-31"/>
       </g>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_13">
-      <path d="M 59.916563 304.710173 
-L 728.39952 304.710173 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
+      <path d="M 51.975938 298.440173 
+L 728.39952 298.440173 
+" clip-path="url(#pf82fc3c00d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
      </g>
      <g id="line2d_14">
       <g>
-       <use xlink:href="#me6de9bf4a0" x="59.916563" y="304.710173" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m095b978f43" x="51.975938" y="298.440173" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
       <!-- 2 -->
-      <g transform="translate(46.4 312.360173) scale(0.18 -0.18)">
+      <g transform="translate(38.459375 302.985173) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-13" d="M 2144 250 
+        <path id="THSarabunPSK-32" d="M 2144 250 
 L 2093 0 
 L 166 0 
 Q 192 160 256 365 
@@ -886,26 +886,26 @@ L 2144 250
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-13"/>
+       <use xlink:href="#THSarabunPSK-32"/>
       </g>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_15">
-      <path d="M 59.916563 259.065499 
-L 728.39952 259.065499 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
+      <path d="M 51.975938 241.613468 
+L 728.39952 241.613468 
+" clip-path="url(#pf82fc3c00d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
      </g>
      <g id="line2d_16">
       <g>
-       <use xlink:href="#me6de9bf4a0" x="59.916563" y="259.065499" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m095b978f43" x="51.975938" y="241.613468" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
       <!-- 3 -->
-      <g transform="translate(46.4 266.715499) scale(0.18 -0.18)">
+      <g transform="translate(38.459375 246.158468) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-14" d="M 2099 1030 
+        <path id="THSarabunPSK-33" d="M 2099 1030 
 Q 2099 544 1766 243 
 Q 1434 -58 909 -70 
 Q 486 -83 218 166 
@@ -933,26 +933,26 @@ Q 2099 1376 2099 1030
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-14"/>
+       <use xlink:href="#THSarabunPSK-33"/>
       </g>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_17">
-      <path d="M 59.916563 213.420825 
-L 728.39952 213.420825 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
+      <path d="M 51.975938 184.786763 
+L 728.39952 184.786763 
+" clip-path="url(#pf82fc3c00d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
      </g>
      <g id="line2d_18">
       <g>
-       <use xlink:href="#me6de9bf4a0" x="59.916563" y="213.420825" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m095b978f43" x="51.975938" y="184.786763" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_14">
       <!-- 4 -->
-      <g transform="translate(46.4 221.070825) scale(0.18 -0.18)">
+      <g transform="translate(38.459375 189.331763) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-15" d="M 1498 947 
+        <path id="THSarabunPSK-34" d="M 1498 947 
 L 1498 2797 
 Q 1056 2579 768 2035 
 Q 493 1517 480 947 
@@ -972,26 +972,26 @@ L 1754 947
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-15"/>
+       <use xlink:href="#THSarabunPSK-34"/>
       </g>
      </g>
     </g>
     <g id="ytick_6">
      <g id="line2d_19">
-      <path d="M 59.916563 167.776152 
-L 728.39952 167.776152 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
+      <path d="M 51.975938 127.960058 
+L 728.39952 127.960058 
+" clip-path="url(#pf82fc3c00d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
      </g>
      <g id="line2d_20">
       <g>
-       <use xlink:href="#me6de9bf4a0" x="59.916563" y="167.776152" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m095b978f43" x="51.975938" y="127.960058" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_15">
       <!-- 5 -->
-      <g transform="translate(46.4 175.426152) scale(0.18 -0.18)">
+      <g transform="translate(38.459375 132.505058) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-16" d="M 2035 1050 
+        <path id="THSarabunPSK-35" d="M 2035 1050 
 Q 2035 557 1702 253 
 Q 1370 -51 845 -51 
 Q 403 -51 154 186 
@@ -1015,26 +1015,26 @@ Q 2035 1472 2035 1050
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-16"/>
+       <use xlink:href="#THSarabunPSK-35"/>
       </g>
      </g>
     </g>
     <g id="ytick_7">
      <g id="line2d_21">
-      <path d="M 59.916563 122.131478 
-L 728.39952 122.131478 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
+      <path d="M 51.975938 71.133353 
+L 728.39952 71.133353 
+" clip-path="url(#pf82fc3c00d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
      </g>
      <g id="line2d_22">
       <g>
-       <use xlink:href="#me6de9bf4a0" x="59.916563" y="122.131478" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m095b978f43" x="51.975938" y="71.133353" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_16">
       <!-- 6 -->
-      <g transform="translate(46.4 129.781478) scale(0.18 -0.18)">
+      <g transform="translate(38.459375 75.678353) scale(0.18 -0.18)">
        <defs>
-        <path id="THSarabunPSK-17" d="M 2061 928 
+        <path id="THSarabunPSK-36" d="M 2061 928 
 Q 2061 512 1827 230 
 Q 1594 -51 1190 -51 
 Q 736 -51 474 294 
@@ -1061,48 +1061,15 @@ Q 1805 614 1805 928
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#THSarabunPSK-17"/>
+       <use xlink:href="#THSarabunPSK-36"/>
       </g>
      </g>
     </g>
-    <g id="ytick_8">
-     <g id="line2d_23">
-      <path d="M 59.916563 76.486804 
-L 728.39952 76.486804 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #e2e8f0; stroke-opacity: 0.85; stroke-width: 0.7"/>
-     </g>
-     <g id="line2d_24">
-      <g>
-       <use xlink:href="#me6de9bf4a0" x="59.916563" y="76.486804" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_17">
-      <!-- 7 -->
-      <g transform="translate(46.4 84.136804) scale(0.18 -0.18)">
-       <defs>
-        <path id="THSarabunPSK-18" d="M 1107 0 
-L 838 0 
-Q 838 966 1222 1850 
-Q 1312 2054 1529 2422 
-Q 1747 2790 1754 2797 
-L 211 2797 
-L 307 3040 
-L 2106 3040 
-L 2054 2784 
-Q 1626 2221 1366 1565 
-Q 1107 909 1107 0 
-z
-" transform="scale(0.015625)"/>
-       </defs>
-       <use xlink:href="#THSarabunPSK-18"/>
-      </g>
-     </g>
-    </g>
-    <g id="text_18">
+    <g id="text_17">
      <!-- จำนวนนักเรียน (คน) -->
-     <g style="fill: #111827" transform="translate(31.4 279.307573) rotate(-90) scale(0.2 -0.2)">
+     <g style="fill: #111827" transform="translate(25.6 284.164604) rotate(-90) scale(0.2 -0.2)">
       <defs>
-       <path id="THSarabunPSK-Bold-dd" d="M 2170 448 
+       <path id="THSarabunPSK-Bold-e08" d="M 2170 448 
 Q 2170 211 2016 80 
 Q 1862 -51 1619 -51 
 Q 1152 -51 1075 365 
@@ -1138,7 +1105,7 @@ Q 902 1101 960 1158
 Q 1018 1216 1018 1299 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-108" d="M -70 3514 
+       <path id="THSarabunPSK-Bold-e33" d="M -70 3514 
 Q -70 3290 -227 3133 
 Q -384 2976 -608 2976 
 Q -838 2976 -995 3133 
@@ -1173,7 +1140,7 @@ Q 1824 2240 1824 1869
 L 1824 0 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-fc" d="M 2099 467 
+       <path id="THSarabunPSK-Bold-e27" d="M 2099 467 
 Q 2099 243 1952 99 
 Q 1805 -45 1587 -45 
 Q 1382 -45 1241 96 
@@ -1203,7 +1170,7 @@ Q 1677 224 1741 288
 Q 1805 352 1805 442 
 z
 " transform="scale(0.015625)"/>
-       <path id="THSarabunPSK-Bold-d9" d="M 2253 0 
+       <path id="THSarabunPSK-Bold-e04" d="M 2253 0 
 L 1856 0 
 L 1856 1747 
 Q 1856 1978 1658 2131 
@@ -1245,112 +1212,112 @@ Q 1478 1440 1478 1523
 z
 " transform="scale(0.015625)"/>
       </defs>
-      <use xlink:href="#THSarabunPSK-Bold-dd"/>
-      <use xlink:href="#THSarabunPSK-Bold-108" transform="translate(39 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-ee" transform="translate(72.59375 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-fc" transform="translate(115.890625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-ee" transform="translate(153.796875 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-ee" transform="translate(197.09375 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-106" transform="translate(240.390625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-d6" transform="translate(240.390625 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-111" transform="translate(279.484375 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(297.78125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-10a" transform="translate(330.6875 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-f7" transform="translate(330.6875 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-ee" transform="translate(369.28125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(412.578125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-9" transform="translate(435.171875 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-d9" transform="translate(459.578125 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-ee" transform="translate(499.875 0)"/>
-      <use xlink:href="#THSarabunPSK-Bold-a" transform="translate(543.171875 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e08"/>
+      <use xlink:href="#THSarabunPSK-Bold-e33" transform="translate(38.999985 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e19" transform="translate(72.599976 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e27" transform="translate(115.899963 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e19" transform="translate(153.799957 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e19" transform="translate(197.099945 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e31" transform="translate(240.399933 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e01" transform="translate(240.399933 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e40" transform="translate(279.499924 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(297.799911 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e35" transform="translate(330.699905 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e22" transform="translate(330.699905 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e19" transform="translate(369.299896 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(412.599884 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-28" transform="translate(435.199875 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e04" transform="translate(459.599869 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-e19" transform="translate(499.899857 0)"/>
+      <use xlink:href="#THSarabunPSK-Bold-29" transform="translate(543.199844 0)"/>
      </g>
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 90.302151 395.99952 
-L 132.324775 395.99952 
-L 132.324775 395.99952 
-L 90.302151 395.99952 
+    <path d="M 82.722464 412.093583 
+L 125.244256 412.093583 
+L 125.244256 412.093583 
+L 82.722464 412.093583 
 z
-" clip-path="url(#pfb2f18faab)" style="fill: #dc2626; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
+" clip-path="url(#pf82fc3c00d)" style="fill: #dc2626; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
-    <path d="M 171.114888 395.99952 
-L 213.137511 395.99952 
-L 213.137511 122.131478 
-L 171.114888 122.131478 
+    <path d="M 164.495141 412.093583 
+L 207.016933 412.093583 
+L 207.016933 127.960058 
+L 164.495141 127.960058 
 z
-" clip-path="url(#pfb2f18faab)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
+" clip-path="url(#pf82fc3c00d)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 251.927625 395.99952 
-L 293.950248 395.99952 
-L 293.950248 350.354846 
-L 251.927625 350.354846 
+    <path d="M 246.267818 412.093583 
+L 288.78961 412.093583 
+L 288.78961 241.613468 
+L 246.267818 241.613468 
 z
-" clip-path="url(#pfb2f18faab)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
+" clip-path="url(#pf82fc3c00d)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
-    <path d="M 332.740361 395.99952 
-L 374.762984 395.99952 
-L 374.762984 350.354846 
-L 332.740361 350.354846 
+    <path d="M 328.040494 412.093583 
+L 370.562286 412.093583 
+L 370.562286 412.093583 
+L 328.040494 412.093583 
 z
-" clip-path="url(#pfb2f18faab)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
+" clip-path="url(#pf82fc3c00d)" style="fill: #dc2626; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
-    <path d="M 413.553098 395.99952 
-L 455.575721 395.99952 
-L 455.575721 304.710173 
-L 413.553098 304.710173 
+    <path d="M 409.813171 412.093583 
+L 452.334963 412.093583 
+L 452.334963 355.266878 
+L 409.813171 355.266878 
 z
-" clip-path="url(#pfb2f18faab)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
+" clip-path="url(#pf82fc3c00d)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
-    <path d="M 494.365835 395.99952 
-L 536.388458 395.99952 
-L 536.388458 259.065499 
-L 494.365835 259.065499 
+    <path d="M 491.585848 412.093583 
+L 534.10764 412.093583 
+L 534.10764 184.786763 
+L 491.585848 184.786763 
 z
-" clip-path="url(#pfb2f18faab)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
+" clip-path="url(#pf82fc3c00d)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
-    <path d="M 575.178571 395.99952 
-L 617.201194 395.99952 
-L 617.201194 350.354846 
-L 575.178571 350.354846 
+    <path d="M 573.358525 412.093583 
+L 615.880317 412.093583 
+L 615.880317 298.440173 
+L 573.358525 298.440173 
 z
-" clip-path="url(#pfb2f18faab)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
+" clip-path="url(#pf82fc3c00d)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
-    <path d="M 655.991308 395.99952 
-L 698.013931 395.99952 
-L 698.013931 167.776152 
-L 655.991308 167.776152 
+    <path d="M 655.131202 412.093583 
+L 697.652994 412.093583 
+L 697.652994 184.786763 
+L 655.131202 184.786763 
 z
-" clip-path="url(#pfb2f18faab)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
+" clip-path="url(#pf82fc3c00d)" style="fill: #1d4ed8; opacity: 0.92; stroke: #1e3a8a; stroke-linejoin: miter"/>
    </g>
-   <g id="line2d_25">
-    <path d="M 90.302151 395.99952 
-L 132.324775 395.99952 
-" clip-path="url(#pfb2f18faab)" style="fill: none; stroke: #dc2626; stroke-width: 2.5; stroke-linecap: square"/>
+   <g id="line2d_23">
+    <path d="M 82.722464 412.093583 
+L 125.244256 412.093583 
+" clip-path="url(#pf82fc3c00d)" style="fill: none; stroke: #dc2626; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
    <g id="patch_11">
-    <path d="M 59.916563 395.99952 
-L 59.916563 49.1 
+    <path d="M 51.975938 412.093583 
+L 51.975938 42.72 
 " style="fill: none; stroke: #cbd5e1; stroke-width: 1.2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_12">
-    <path d="M 59.916563 395.99952 
-L 728.39952 395.99952 
+    <path d="M 51.975938 412.093583 
+L 728.39952 412.093583 
 " style="fill: none; stroke: #cbd5e1; stroke-width: 1.2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="text_19">
+   <g id="text_18">
     <!-- 0 คน -->
-    <g style="fill: #dc2626" transform="translate(99.490494 362.276881) scale(0.17 -0.17)">
+    <g style="fill: #dc2626" transform="translate(92.160391 388.447014) scale(0.17 -0.17)">
      <defs>
-      <path id="THSarabunPSK-1f0" transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-d9" d="M 2157 0 
+      <path id="THSarabunPSK-20" transform="scale(0.015625)"/>
+      <path id="THSarabunPSK-e04" d="M 2157 0 
 L 1926 0 
 L 1926 1722 
 Q 1926 2029 1699 2192 
@@ -1390,7 +1357,7 @@ Q 1312 1376 1369 1433
 Q 1427 1491 1427 1574 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-ee" d="M 2458 365 
+      <path id="THSarabunPSK-e19" d="M 2458 365 
 Q 2458 192 2333 70 
 Q 2208 -51 2035 -51 
 Q 1862 -51 1740 70 
@@ -1438,15 +1405,15 @@ Q 2253 282 2253 371
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#THSarabunPSK-11"/>
-     <use xlink:href="#THSarabunPSK-1f0" transform="translate(36.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-d9" transform="translate(57.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-ee" transform="translate(97.09375 0)"/>
+     <use xlink:href="#THSarabunPSK-30"/>
+     <use xlink:href="#THSarabunPSK-20" transform="translate(36.199997 0)"/>
+     <use xlink:href="#THSarabunPSK-e04" transform="translate(57.799988 0)"/>
+     <use xlink:href="#THSarabunPSK-e19" transform="translate(97.099976 0)"/>
     </g>
     <!-- (0.0%) -->
-    <g style="fill: #dc2626" transform="translate(95.579166 382.89735) scale(0.17 -0.17)">
+    <g style="fill: #dc2626" transform="translate(88.249063 400.730046) scale(0.17 -0.17)">
      <defs>
-      <path id="THSarabunPSK-9" d="M 1082 -371 
+      <path id="THSarabunPSK-28" d="M 1082 -371 
 L 838 -371 
 Q 128 403 128 1498 
 Q 128 2534 832 3405 
@@ -1455,7 +1422,7 @@ Q 371 2586 371 1498
 Q 371 480 1082 -371 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-f" d="M 736 179 
+      <path id="THSarabunPSK-2e" d="M 736 179 
 Q 736 90 669 26 
 Q 602 -38 512 -38 
 Q 422 -38 358 26 
@@ -1466,7 +1433,7 @@ Q 602 403 669 336
 Q 736 269 736 179 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-6" d="M 2899 3046 
+      <path id="THSarabunPSK-25" d="M 2899 3046 
 L 1043 -58 
 L 826 -58 
 L 2682 3046 
@@ -1497,7 +1464,7 @@ Q 2381 186 2835 186
 Q 3290 186 3290 890 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-a" d="M 1082 1517 
+      <path id="THSarabunPSK-29" d="M 1082 1517 
 Q 1082 454 371 -371 
 L 128 -371 
 Q 838 518 838 1517 
@@ -1507,100 +1474,45 @@ Q 1082 2605 1082 1517
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#THSarabunPSK-9"/>
-     <use xlink:href="#THSarabunPSK-11" transform="translate(19 0)"/>
-     <use xlink:href="#THSarabunPSK-f" transform="translate(55.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-11" transform="translate(71.40625 0)"/>
-     <use xlink:href="#THSarabunPSK-6" transform="translate(107.609375 0)"/>
-     <use xlink:href="#THSarabunPSK-a" transform="translate(166.109375 0)"/>
+     <use xlink:href="#THSarabunPSK-28"/>
+     <use xlink:href="#THSarabunPSK-30" transform="translate(18.999985 0)"/>
+     <use xlink:href="#THSarabunPSK-2e" transform="translate(55.199982 0)"/>
+     <use xlink:href="#THSarabunPSK-30" transform="translate(71.399979 0)"/>
+     <use xlink:href="#THSarabunPSK-25" transform="translate(107.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-29" transform="translate(166.09996 0)"/>
+    </g>
+   </g>
+   <g id="text_19">
+    <!-- 5 คน -->
+    <g style="fill: #111827" transform="translate(173.933068 104.313489) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-35"/>
+     <use xlink:href="#THSarabunPSK-20" transform="translate(36.199997 0)"/>
+     <use xlink:href="#THSarabunPSK-e04" transform="translate(57.799988 0)"/>
+     <use xlink:href="#THSarabunPSK-e19" transform="translate(97.099976 0)"/>
+    </g>
+    <!-- (26.3%) -->
+    <g style="fill: #111827" transform="translate(166.944474 116.59652) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-28"/>
+     <use xlink:href="#THSarabunPSK-32" transform="translate(18.999985 0)"/>
+     <use xlink:href="#THSarabunPSK-36" transform="translate(55.199982 0)"/>
+     <use xlink:href="#THSarabunPSK-2e" transform="translate(91.399979 0)"/>
+     <use xlink:href="#THSarabunPSK-33" transform="translate(107.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-25" transform="translate(143.799973 0)"/>
+     <use xlink:href="#THSarabunPSK-29" transform="translate(202.299957 0)"/>
     </g>
    </g>
    <g id="text_20">
-    <!-- 6 คน -->
-    <g style="fill: #111827" transform="translate(180.303231 88.476574) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-17"/>
-     <use xlink:href="#THSarabunPSK-1f0" transform="translate(36.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-d9" transform="translate(57.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-ee" transform="translate(97.09375 0)"/>
-    </g>
-    <!-- (31.6%) -->
-    <g style="fill: #111827" transform="translate(173.314637 109.029308) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-9"/>
-     <use xlink:href="#THSarabunPSK-14" transform="translate(19 0)"/>
-     <use xlink:href="#THSarabunPSK-12" transform="translate(55.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-f" transform="translate(91.40625 0)"/>
-     <use xlink:href="#THSarabunPSK-17" transform="translate(107.609375 0)"/>
-     <use xlink:href="#THSarabunPSK-6" transform="translate(143.8125 0)"/>
-     <use xlink:href="#THSarabunPSK-a" transform="translate(202.3125 0)"/>
-    </g>
-   </g>
-   <g id="text_21">
-    <!-- 1 คน -->
-    <g style="fill: #111827" transform="translate(261.115968 316.648145) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-12"/>
-     <use xlink:href="#THSarabunPSK-1f0" transform="translate(36.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-d9" transform="translate(57.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-ee" transform="translate(97.09375 0)"/>
-    </g>
-    <!-- (5.3%) -->
-    <g style="fill: #111827" transform="translate(257.204639 337.252677) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-9"/>
-     <use xlink:href="#THSarabunPSK-16" transform="translate(19 0)"/>
-     <use xlink:href="#THSarabunPSK-f" transform="translate(55.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-14" transform="translate(71.40625 0)"/>
-     <use xlink:href="#THSarabunPSK-6" transform="translate(107.609375 0)"/>
-     <use xlink:href="#THSarabunPSK-a" transform="translate(166.109375 0)"/>
-    </g>
-   </g>
-   <g id="text_22">
-    <!-- 1 คน -->
-    <g style="fill: #111827" transform="translate(341.928704 316.648145) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-12"/>
-     <use xlink:href="#THSarabunPSK-1f0" transform="translate(36.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-d9" transform="translate(57.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-ee" transform="translate(97.09375 0)"/>
-    </g>
-    <!-- (5.3%) -->
-    <g style="fill: #111827" transform="translate(338.017376 337.252677) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-9"/>
-     <use xlink:href="#THSarabunPSK-16" transform="translate(19 0)"/>
-     <use xlink:href="#THSarabunPSK-f" transform="translate(55.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-14" transform="translate(71.40625 0)"/>
-     <use xlink:href="#THSarabunPSK-6" transform="translate(107.609375 0)"/>
-     <use xlink:href="#THSarabunPSK-a" transform="translate(166.109375 0)"/>
-    </g>
-   </g>
-   <g id="text_23">
-    <!-- 2 คน -->
-    <g style="fill: #111827" transform="translate(422.741441 271.003472) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-13"/>
-     <use xlink:href="#THSarabunPSK-1f0" transform="translate(36.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-d9" transform="translate(57.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-ee" transform="translate(97.09375 0)"/>
-    </g>
-    <!-- (10.5%) -->
-    <g style="fill: #111827" transform="translate(415.752847 291.608003) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-9"/>
-     <use xlink:href="#THSarabunPSK-12" transform="translate(19 0)"/>
-     <use xlink:href="#THSarabunPSK-11" transform="translate(55.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-f" transform="translate(91.40625 0)"/>
-     <use xlink:href="#THSarabunPSK-16" transform="translate(107.609375 0)"/>
-     <use xlink:href="#THSarabunPSK-6" transform="translate(143.8125 0)"/>
-     <use xlink:href="#THSarabunPSK-a" transform="translate(202.3125 0)"/>
-    </g>
-   </g>
-   <g id="text_24">
     <!-- 3 คน -->
-    <g style="fill: #111827" transform="translate(503.554177 225.316298) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-14"/>
-     <use xlink:href="#THSarabunPSK-1f0" transform="translate(36.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-d9" transform="translate(57.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-ee" transform="translate(97.09375 0)"/>
+    <g style="fill: #111827" transform="translate(255.705745 217.966899) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-33"/>
+     <use xlink:href="#THSarabunPSK-20" transform="translate(36.199997 0)"/>
+     <use xlink:href="#THSarabunPSK-e04" transform="translate(57.799988 0)"/>
+     <use xlink:href="#THSarabunPSK-e19" transform="translate(97.099976 0)"/>
     </g>
     <!-- (15.8%) -->
-    <g style="fill: #111827" transform="translate(496.565584 245.963329) scale(0.17 -0.17)">
+    <g style="fill: #111827" transform="translate(248.717151 230.249931) scale(0.17 -0.17)">
      <defs>
-      <path id="THSarabunPSK-19" d="M 1843 800 
+      <path id="THSarabunPSK-38" d="M 1843 800 
 Q 1843 1050 1670 1277 
 Q 1498 1504 1152 1523 
 Q 813 1504 640 1277 
@@ -1638,57 +1550,113 @@ Q 2099 1133 2099 819
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#THSarabunPSK-9"/>
-     <use xlink:href="#THSarabunPSK-12" transform="translate(19 0)"/>
-     <use xlink:href="#THSarabunPSK-16" transform="translate(55.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-f" transform="translate(91.40625 0)"/>
-     <use xlink:href="#THSarabunPSK-19" transform="translate(107.609375 0)"/>
-     <use xlink:href="#THSarabunPSK-6" transform="translate(143.8125 0)"/>
-     <use xlink:href="#THSarabunPSK-a" transform="translate(202.3125 0)"/>
+     <use xlink:href="#THSarabunPSK-28"/>
+     <use xlink:href="#THSarabunPSK-31" transform="translate(18.999985 0)"/>
+     <use xlink:href="#THSarabunPSK-35" transform="translate(55.199982 0)"/>
+     <use xlink:href="#THSarabunPSK-2e" transform="translate(91.399979 0)"/>
+     <use xlink:href="#THSarabunPSK-38" transform="translate(107.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-25" transform="translate(143.799973 0)"/>
+     <use xlink:href="#THSarabunPSK-29" transform="translate(202.299957 0)"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <!-- 0 คน -->
+    <g style="fill: #dc2626" transform="translate(337.478422 388.447014) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-30"/>
+     <use xlink:href="#THSarabunPSK-20" transform="translate(36.199997 0)"/>
+     <use xlink:href="#THSarabunPSK-e04" transform="translate(57.799988 0)"/>
+     <use xlink:href="#THSarabunPSK-e19" transform="translate(97.099976 0)"/>
+    </g>
+    <!-- (0.0%) -->
+    <g style="fill: #dc2626" transform="translate(333.567093 400.730046) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-28"/>
+     <use xlink:href="#THSarabunPSK-30" transform="translate(18.999985 0)"/>
+     <use xlink:href="#THSarabunPSK-2e" transform="translate(55.199982 0)"/>
+     <use xlink:href="#THSarabunPSK-30" transform="translate(71.399979 0)"/>
+     <use xlink:href="#THSarabunPSK-25" transform="translate(107.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-29" transform="translate(166.09996 0)"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <!-- 1 คน -->
+    <g style="fill: #111827" transform="translate(419.251098 331.620309) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-31"/>
+     <use xlink:href="#THSarabunPSK-20" transform="translate(36.199997 0)"/>
+     <use xlink:href="#THSarabunPSK-e04" transform="translate(57.799988 0)"/>
+     <use xlink:href="#THSarabunPSK-e19" transform="translate(97.099976 0)"/>
+    </g>
+    <!-- (5.3%) -->
+    <g style="fill: #111827" transform="translate(415.33977 343.903341) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-28"/>
+     <use xlink:href="#THSarabunPSK-35" transform="translate(18.999985 0)"/>
+     <use xlink:href="#THSarabunPSK-2e" transform="translate(55.199982 0)"/>
+     <use xlink:href="#THSarabunPSK-33" transform="translate(71.399979 0)"/>
+     <use xlink:href="#THSarabunPSK-25" transform="translate(107.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-29" transform="translate(166.09996 0)"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <!-- 4 คน -->
+    <g style="fill: #111827" transform="translate(501.023775 161.140194) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-34"/>
+     <use xlink:href="#THSarabunPSK-20" transform="translate(36.199997 0)"/>
+     <use xlink:href="#THSarabunPSK-e04" transform="translate(57.799988 0)"/>
+     <use xlink:href="#THSarabunPSK-e19" transform="translate(97.099976 0)"/>
+    </g>
+    <!-- (21.1%) -->
+    <g style="fill: #111827" transform="translate(494.035181 173.423226) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-28"/>
+     <use xlink:href="#THSarabunPSK-32" transform="translate(18.999985 0)"/>
+     <use xlink:href="#THSarabunPSK-31" transform="translate(55.199982 0)"/>
+     <use xlink:href="#THSarabunPSK-2e" transform="translate(91.399979 0)"/>
+     <use xlink:href="#THSarabunPSK-31" transform="translate(107.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-25" transform="translate(143.799973 0)"/>
+     <use xlink:href="#THSarabunPSK-29" transform="translate(202.299957 0)"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <!-- 2 คน -->
+    <g style="fill: #111827" transform="translate(582.796452 274.793604) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-32"/>
+     <use xlink:href="#THSarabunPSK-20" transform="translate(36.199997 0)"/>
+     <use xlink:href="#THSarabunPSK-e04" transform="translate(57.799988 0)"/>
+     <use xlink:href="#THSarabunPSK-e19" transform="translate(97.099976 0)"/>
+    </g>
+    <!-- (10.5%) -->
+    <g style="fill: #111827" transform="translate(575.807858 287.076636) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-28"/>
+     <use xlink:href="#THSarabunPSK-31" transform="translate(18.999985 0)"/>
+     <use xlink:href="#THSarabunPSK-30" transform="translate(55.199982 0)"/>
+     <use xlink:href="#THSarabunPSK-2e" transform="translate(91.399979 0)"/>
+     <use xlink:href="#THSarabunPSK-35" transform="translate(107.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-25" transform="translate(143.799973 0)"/>
+     <use xlink:href="#THSarabunPSK-29" transform="translate(202.299957 0)"/>
     </g>
    </g>
    <g id="text_25">
-    <!-- 1 คน -->
-    <g style="fill: #111827" transform="translate(584.366914 316.648145) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-12"/>
-     <use xlink:href="#THSarabunPSK-1f0" transform="translate(36.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-d9" transform="translate(57.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-ee" transform="translate(97.09375 0)"/>
+    <!-- 4 คน -->
+    <g style="fill: #111827" transform="translate(664.569129 161.140194) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-34"/>
+     <use xlink:href="#THSarabunPSK-20" transform="translate(36.199997 0)"/>
+     <use xlink:href="#THSarabunPSK-e04" transform="translate(57.799988 0)"/>
+     <use xlink:href="#THSarabunPSK-e19" transform="translate(97.099976 0)"/>
     </g>
-    <!-- (5.3%) -->
-    <g style="fill: #111827" transform="translate(580.455586 337.252677) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-9"/>
-     <use xlink:href="#THSarabunPSK-16" transform="translate(19 0)"/>
-     <use xlink:href="#THSarabunPSK-f" transform="translate(55.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-14" transform="translate(71.40625 0)"/>
-     <use xlink:href="#THSarabunPSK-6" transform="translate(107.609375 0)"/>
-     <use xlink:href="#THSarabunPSK-a" transform="translate(166.109375 0)"/>
+    <!-- (21.1%) -->
+    <g style="fill: #111827" transform="translate(657.580535 173.423226) scale(0.17 -0.17)">
+     <use xlink:href="#THSarabunPSK-28"/>
+     <use xlink:href="#THSarabunPSK-32" transform="translate(18.999985 0)"/>
+     <use xlink:href="#THSarabunPSK-31" transform="translate(55.199982 0)"/>
+     <use xlink:href="#THSarabunPSK-2e" transform="translate(91.399979 0)"/>
+     <use xlink:href="#THSarabunPSK-31" transform="translate(107.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-25" transform="translate(143.799973 0)"/>
+     <use xlink:href="#THSarabunPSK-29" transform="translate(202.299957 0)"/>
     </g>
    </g>
    <g id="text_26">
-    <!-- 5 คน -->
-    <g style="fill: #111827" transform="translate(665.179651 134.044216) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-16"/>
-     <use xlink:href="#THSarabunPSK-1f0" transform="translate(36.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-d9" transform="translate(57.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-ee" transform="translate(97.09375 0)"/>
-    </g>
-    <!-- (26.3%) -->
-    <g style="fill: #111827" transform="translate(658.191057 154.673982) scale(0.17 -0.17)">
-     <use xlink:href="#THSarabunPSK-9"/>
-     <use xlink:href="#THSarabunPSK-13" transform="translate(19 0)"/>
-     <use xlink:href="#THSarabunPSK-17" transform="translate(55.203125 0)"/>
-     <use xlink:href="#THSarabunPSK-f" transform="translate(91.40625 0)"/>
-     <use xlink:href="#THSarabunPSK-14" transform="translate(107.609375 0)"/>
-     <use xlink:href="#THSarabunPSK-6" transform="translate(143.8125 0)"/>
-     <use xlink:href="#THSarabunPSK-a" transform="translate(202.3125 0)"/>
-    </g>
-   </g>
-   <g id="text_27">
     <!-- การแจกแจงระดับผลการเรียน 8 ระดับ รายวิชา 31909-0003 (1 สทค 2) -->
-    <g style="fill: #111827" transform="translate(176.521322 33.1) scale(0.22 -0.22)">
+    <g style="fill: #111827" transform="translate(172.55101 26.72) scale(0.22 -0.22)">
      <defs>
-      <path id="THSarabunPSK-Bold-112" d="M 1306 435 
+      <path id="THSarabunPSK-Bold-e41" d="M 1306 435 
 Q 1306 230 1162 89 
 Q 1018 -51 819 -51 
 Q 602 -51 454 96 
@@ -1733,7 +1701,7 @@ Q 2106 218 2170 282
 Q 2234 346 2234 435 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-Bold-dc" d="M 1709 0 
+      <path id="THSarabunPSK-Bold-e07" d="M 1709 0 
 L 1318 0 
 L 122 1350 
 L 358 1626 
@@ -1759,7 +1727,7 @@ Q 1280 1907 1344 1971
 Q 1408 2035 1408 2125 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-Bold-19" d="M 1830 838 
+      <path id="THSarabunPSK-Bold-38" d="M 1830 838 
 Q 1830 1075 1670 1267 
 Q 1510 1459 1210 1478 
 Q 909 1459 749 1267 
@@ -1794,7 +1762,7 @@ Q 1933 1549 2077 1331
 Q 2221 1114 2221 858 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-Bold-109" d="M -314 2880 
+      <path id="THSarabunPSK-Bold-e34" d="M -314 2880 
 Q -1107 3136 -1766 3136 
 Q -2067 3136 -2374 3098 
 Q -2298 3955 -1440 3955 
@@ -1810,7 +1778,7 @@ Q -1888 3386 -1658 3386
 Q -1184 3386 -723 3258 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-Bold-df" d="M 2330 602 
+      <path id="THSarabunPSK-Bold-e0a" d="M 2330 602 
 Q 2330 288 2134 118 
 Q 1939 -51 1619 -51 
 Q 1299 -51 1104 118 
@@ -1858,7 +1826,7 @@ Q 691 1632 748 1689
 Q 806 1747 806 1830 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-Bold-1a" d="M 2182 1914 
+      <path id="THSarabunPSK-Bold-39" d="M 2182 1914 
 Q 2182 1178 1696 614 
 Q 1210 51 429 -102 
 L 390 218 
@@ -1883,14 +1851,14 @@ Q 1408 1395 1577 1584
 Q 1747 1773 1747 2048 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-Bold-e" d="M 1363 1005 
+      <path id="THSarabunPSK-Bold-2d" d="M 1363 1005 
 L 83 1005 
 L 83 1350 
 L 1363 1350 
 L 1363 1005 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-Bold-ff" d="M 2227 0 
+      <path id="THSarabunPSK-Bold-e2a" d="M 2227 0 
 L 1830 0 
 L 1830 1107 
 Q 1830 1299 1613 1402 
@@ -1935,7 +1903,7 @@ Q 934 224 998 288
 Q 1062 352 1062 442 
 z
 " transform="scale(0.015625)"/>
-      <path id="THSarabunPSK-Bold-ec" d="M 2477 0 
+      <path id="THSarabunPSK-Bold-e17" d="M 2477 0 
 L 2080 0 
 L 2080 2067 
 Q 2080 2266 1984 2266 
@@ -1970,74 +1938,74 @@ Q 768 2029 768 2118
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#THSarabunPSK-Bold-d6"/>
-     <use xlink:href="#THSarabunPSK-Bold-107" transform="translate(39.09375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(72.6875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-112" transform="translate(105.59375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-dd" transform="translate(143.09375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-d6" transform="translate(182.09375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-112" transform="translate(221.1875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-dd" transform="translate(258.6875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-dc" transform="translate(297.6875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(329.484375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-105" transform="translate(362.390625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-e9" transform="translate(396.390625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-106" transform="translate(436.890625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-ef" transform="translate(436.890625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f1" transform="translate(481.390625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-fa" transform="translate(522.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-d6" transform="translate(562.703125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-107" transform="translate(601.796875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(635.390625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-111" transform="translate(668.296875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(686.59375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-10a" transform="translate(719.5 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f7" transform="translate(719.5 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-ee" transform="translate(758.09375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(801.390625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-19" transform="translate(823.984375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(861.78125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(884.375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-105" transform="translate(917.28125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-e9" transform="translate(951.28125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-106" transform="translate(991.78125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-ef" transform="translate(991.78125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(1036.28125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f8" transform="translate(1058.875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-107" transform="translate(1091.78125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-f7" transform="translate(1125.375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-fc" transform="translate(1163.96875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-109" transform="translate(1201.875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-df" transform="translate(1201.875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-107" transform="translate(1243.375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(1276.96875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-14" transform="translate(1299.5625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-12" transform="translate(1337.359375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1a" transform="translate(1375.15625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(1412.953125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1a" transform="translate(1450.75 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-e" transform="translate(1488.546875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(1511.140625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(1548.9375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-11" transform="translate(1586.734375 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-14" transform="translate(1624.53125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(1662.328125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-9" transform="translate(1684.921875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-12" transform="translate(1709.328125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(1747.125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-ff" transform="translate(1769.71875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-ec" transform="translate(1809.625 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-d9" transform="translate(1853.421875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-1f0" transform="translate(1893.71875 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-13" transform="translate(1916.3125 0)"/>
-     <use xlink:href="#THSarabunPSK-Bold-a" transform="translate(1954.109375 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e01"/>
+     <use xlink:href="#THSarabunPSK-Bold-e32" transform="translate(39.099991 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(72.699982 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e41" transform="translate(105.599976 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e08" transform="translate(143.09996 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e01" transform="translate(182.099945 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e41" transform="translate(221.199936 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e08" transform="translate(258.699921 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e07" transform="translate(297.699905 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(329.499893 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e30" transform="translate(362.399887 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e14" transform="translate(396.399872 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e31" transform="translate(436.899857 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e1a" transform="translate(436.899857 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e1c" transform="translate(481.399841 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e25" transform="translate(522.799835 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e01" transform="translate(562.699829 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e32" transform="translate(601.79982 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(635.399811 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e40" transform="translate(668.299805 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(686.599792 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e35" transform="translate(719.499786 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e22" transform="translate(719.499786 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e19" transform="translate(758.099777 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(801.399765 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-38" transform="translate(823.999756 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(861.799744 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(884.399734 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e30" transform="translate(917.299728 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e14" transform="translate(951.299713 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e31" transform="translate(991.799698 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e1a" transform="translate(991.799698 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(1036.299683 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e23" transform="translate(1058.899673 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e32" transform="translate(1091.799667 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e22" transform="translate(1125.399658 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e27" transform="translate(1163.999649 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e34" transform="translate(1201.899643 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e0a" transform="translate(1201.899643 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e32" transform="translate(1243.399628 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(1276.999619 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-33" transform="translate(1299.599609 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-31" transform="translate(1337.399597 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-39" transform="translate(1375.199585 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(1412.999573 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-39" transform="translate(1450.799561 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-2d" transform="translate(1488.599548 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(1511.199539 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(1548.999527 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-30" transform="translate(1586.799515 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-33" transform="translate(1624.599503 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(1662.39949 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-28" transform="translate(1684.999481 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-31" transform="translate(1709.399475 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(1747.199463 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e2a" transform="translate(1769.799454 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e17" transform="translate(1809.699448 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-e04" transform="translate(1853.499435 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-20" transform="translate(1893.799423 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-32" transform="translate(1916.399414 0)"/>
+     <use xlink:href="#THSarabunPSK-Bold-29" transform="translate(1954.199402 0)"/>
     </g>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pfb2f18faab">
-   <rect x="59.916563" y="49.1" width="668.482957" height="346.89952"/>
+  <clipPath id="pf82fc3c00d">
+   <rect x="51.975938" y="42.72" width="676.423582" height="369.373583"/>
   </clipPath>
  </defs>
 </svg>

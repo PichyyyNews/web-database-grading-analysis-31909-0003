@@ -6,8 +6,9 @@ import matplotlib.font_manager as fm
 from pathlib import Path
 
 # Load TH SarabunPSK
-font_path = Path(r'C:\Users\Newsk\.gemini\config\skills\matplotlib-creator\fonts\THSarabun.ttf')
-bold_font_path = Path(r'C:\Users\Newsk\.gemini\config\skills\matplotlib-creator\fonts\THSarabun Bold.ttf')
+font_path = Path(r'C:\Users\Newsk\.gemini\config\skills\mathplot\fonts\THSarabun.ttf')
+bold_font_path = Path(r'C:\Users\Newsk\.gemini\config\skills\mathplot\fonts\THSarabun Bold.ttf')
+
 fm.fontManager.addfont(str(font_path))
 fm.fontManager.addfont(str(bold_font_path))
 font_prop = fm.FontProperties(fname=str(font_path))
@@ -35,9 +36,10 @@ mpl.rcParams.update({
 })
 
 scores = np.array([
-    80.20, 80.65, 52.02, 82.30, 51.98, 83.30, 66.62, 57.77, 50.38,
-    62.86, 50.58, 73.75, 50.18, 84.30, 75.90, 72.21, 73.25, 69.81, 51.28
+    79.53, 80.50, 53.43, 82.30, 55.23, 82.63, 68.67, 59.33, 52.97,
+    57.73, 52.83, 74.27, 52.77, 84.30, 75.57, 73.23, 72.40, 70.17, 53.87
 ])
+
 
 mean_val = float(np.mean(scores))
 std_val = float(np.std(scores, ddof=1))

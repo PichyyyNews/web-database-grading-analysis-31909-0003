@@ -4,8 +4,9 @@ import matplotlib.font_manager as fm
 from pathlib import Path
 
 # Load TH SarabunPSK
-font_path = Path(r'C:\Users\Newsk\.gemini\config\skills\matplotlib-creator\fonts\THSarabun.ttf')
-bold_font_path = Path(r'C:\Users\Newsk\.gemini\config\skills\matplotlib-creator\fonts\THSarabun Bold.ttf')
+font_path = Path(r'C:\Users\Newsk\.gemini\config\skills\mathplot\fonts\THSarabun.ttf')
+bold_font_path = Path(r'C:\Users\Newsk\.gemini\config\skills\mathplot\fonts\THSarabun Bold.ttf')
+
 fm.fontManager.addfont(str(font_path))
 fm.fontManager.addfont(str(bold_font_path))
 font_prop = fm.FontProperties(fname=str(font_path))
@@ -32,11 +33,12 @@ mpl.rcParams.update({
     'axes.unicode_minus': False,
 })
 
-# Data definition
+# Data definition — อัปเดตวันที่ 15 ก.ย. 2569 (รวมคะแนนเก็บเพิ่ม 20 คะแนน)
 grades = ['0.0', '1.0', '1.5', '2.0', '2.5', '3.0', '3.5', '4.0']
-counts = [0, 6, 1, 1, 2, 3, 1, 5]
+counts = [0, 5, 3, 0, 1, 4, 2, 4]
 total_students = sum(counts)
 percentages = [(c / total_students) * 100 for c in counts]
+
 
 # Create Figure & Axes
 fig, ax = plt.subplots(figsize=(10, 6.2), facecolor='#FFFFFF')
@@ -86,10 +88,11 @@ ax.set_xticks(x_pos)
 ax.set_xticklabels(grades, fontproperties=bold_prop, fontsize=18)
 ax.set_xlabel('ระดับผลการเรียน (เกรด)', fontproperties=bold_prop, fontsize=20, labelpad=10, color='#111827')
 
-ax.set_yticks(range(0, 8))
-ax.set_yticklabels([str(y) for y in range(0, 8)], fontproperties=font_prop, fontsize=18)
+ax.set_yticks(range(0, 7))
+ax.set_yticklabels([str(y) for y in range(0, 7)], fontproperties=font_prop, fontsize=18)
 ax.set_ylabel('จำนวนนักเรียน (คน)', fontproperties=bold_prop, fontsize=20, labelpad=10, color='#111827')
-ax.set_ylim(0, 7.6)
+ax.set_ylim(0, 6.5)
+
 
 # Title
 ax.set_title('การแจกแจงระดับผลการเรียน 8 ระดับ รายวิชา 31909-0003 (1 สทค 2)',

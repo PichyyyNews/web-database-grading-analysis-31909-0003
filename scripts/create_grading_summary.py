@@ -125,6 +125,29 @@ final_scores = {
     '039': (21.0, 18.0), # ปรับข้อเขียนปลายภาคให้อนาวินทร์ (เดิม 3 เป็น 18)
 }
 
+# คะแนนเก็บเพิ่ม (เต็ม 20 คะแนน) — เพิ่มเติมวันที่ 15 ก.ย. 2569
+extra_scores = {
+    '021': 18.0,
+    '022': 18.0,
+    '023': 15.0,
+    '024': 20.0,
+    '025': 19.0,
+    '026': 18.0,
+    '027': 20.0,
+    '028': 17.0,
+    '029': 17.0,
+    '030': 0.0,  # ไม่มีข้อมูลคะแนนเก็บเพิ่ม
+    '031': 16.0,
+    '032': 20.0,
+    '033': 17.0,
+    '034': 20.0,
+    '035': 19.0,
+    '036': 20.0,
+    '037': 15.0,
+    '038': 18.0,
+    '039': 17.0,
+}
+
 # Assignment overrides (ส่งงานย้อนหลัง)
 asg_overrides = {
     '69319090021': {1: 10.0, 13: 10.0},
@@ -255,7 +278,7 @@ sub_hdrs_s1 = [
     ("ชื่อ - สกุล", fill_hdr_main),
     ("มาเรียน\n(10 ครั้ง)", fill_hdr_att),
     ("จิตพิสัย\n(เต็ม 20)", fill_hdr_att),
-    ("คะแนนดิบ\n(เต็ม 130)", fill_hdr_asg),
+    ("คะแนนดิบ\n(เต็ม 150)", fill_hdr_asg),
     ("ทอนคะแนน\n(เต็ม 50)", fill_hdr_asg),
     ("คะแนนดิบ\n(เต็ม 100)", fill_hdr_mid),
     ("ทอนคะแนน\n(เต็ม 10)", fill_hdr_mid),
@@ -265,6 +288,7 @@ sub_hdrs_s1 = [
     ("ระดับเกรด\n(0 - 4)", fill_hdr_grd),
     ("ผลการประเมิน", fill_hdr_grd),
 ]
+
 
 for col_idx, (h_title, h_fill) in enumerate(sub_hdrs_s1, start=1):
     cell = ws1.cell(6, col_idx, h_title)
@@ -291,16 +315,17 @@ for s_idx, s in enumerate(students):
     cE = ws1.cell(curr_row, 5, f"=ROUND((D{curr_row}/10)*20, 2)"); cE.font = font_bold; cE.alignment = align_right; cE.fill = row_fill; cE.border = thin_border; cE.number_format = '0.00'
 
     # Assignment
-    cF = ws1.cell(curr_row, 6, f"='คะแนนดิบ'!Q{raw_sheet_row}"); cF.font = font_data; cF.alignment = align_right; cF.fill = row_fill; cF.border = thin_border; cF.number_format = '0.0'
-    cG = ws1.cell(curr_row, 7, f"=ROUND((F{curr_row}/130)*50, 2)"); cG.font = font_bold; cG.alignment = align_right; cG.fill = row_fill; cG.border = thin_border; cG.number_format = '0.00'
+    cF = ws1.cell(curr_row, 6, f"='คะแนนดิบ'!R{raw_sheet_row}"); cF.font = font_data; cF.alignment = align_right; cF.fill = row_fill; cF.border = thin_border; cF.number_format = '0.0'
+    cG = ws1.cell(curr_row, 7, f"=ROUND((F{curr_row}/150)*50, 2)"); cG.font = font_bold; cG.alignment = align_right; cG.fill = row_fill; cG.border = thin_border; cG.number_format = '0.00'
 
     # Midterm
-    cH = ws1.cell(curr_row, 8, f"='คะแนนดิบ'!U{raw_sheet_row}"); cH.font = font_data; cH.alignment = align_right; cH.fill = row_fill; cH.border = thin_border; cH.number_format = '0.0'
+    cH = ws1.cell(curr_row, 8, f"='คะแนนดิบ'!V{raw_sheet_row}"); cH.font = font_data; cH.alignment = align_right; cH.fill = row_fill; cH.border = thin_border; cH.number_format = '0.0'
     cI = ws1.cell(curr_row, 9, f"=ROUND((H{curr_row}/100)*10, 2)"); cI.font = font_bold; cI.alignment = align_right; cI.fill = row_fill; cI.border = thin_border; cI.number_format = '0.00'
 
     # Final
-    cJ = ws1.cell(curr_row, 10, f"='คะแนนดิบ'!X{raw_sheet_row}"); cJ.font = font_data; cJ.alignment = align_right; cJ.fill = row_fill; cJ.border = thin_border; cJ.number_format = '0.0'
+    cJ = ws1.cell(curr_row, 10, f"='คะแนนดิบ'!Y{raw_sheet_row}"); cJ.font = font_data; cJ.alignment = align_right; cJ.fill = row_fill; cJ.border = thin_border; cJ.number_format = '0.0'
     cK = ws1.cell(curr_row, 11, f"=ROUND((J{curr_row}/100)*20, 2)"); cK.font = font_bold; cK.alignment = align_right; cK.fill = row_fill; cK.border = thin_border; cK.number_format = '0.00'
+
 
     # Total Net Score
     cL = ws1.cell(curr_row, 12, f"=ROUND(E{curr_row}+G{curr_row}+I{curr_row}+K{curr_row}, 2)")
@@ -412,13 +437,14 @@ ws1.column_dimensions['N'].width = 14
 ws2 = wb_new.create_sheet(title="คะแนนดิบ")
 ws2.views.sheetView[0].showGridLines = True
 
-ws2.merge_cells("A1:X1")
+ws2.merge_cells("A1:Y1")
 ws2["A1"] = "ตารางคะแนนดิบ: คะแนนเก็บตามภาระงาน และคะแนนสอบกลางภาค/ปลายภาค"
 ws2["A1"].font = font_title; ws2["A1"].alignment = align_left
 
-ws2.merge_cells("A2:X2")
+ws2.merge_cells("A2:Y2")
 ws2["A2"] = "วิชา การสร้างเว็บไซต์และระบบฐานข้อมูล (31909-0003) | ปวส.1 เทคโนโลยีคอมพิวเตอร์ (กลุ่ม 1 สทค 2 (ม.6)) | ภาคเรียนที่ 1/2569"
 ws2["A2"].font = font_subtitle; ws2["A2"].alignment = align_left
+
 
 ws2.row_dimensions[1].height = 24
 ws2.row_dimensions[2].height = 18
@@ -431,20 +457,21 @@ ws2["A4"] = "ข้อมูลนักศึกษา"
 ws2["A4"].font = font_super_header; ws2["A4"].fill = fill_hdr_main; ws2["A4"].alignment = align_header
 for c in range(1, 4): ws2.cell(4, c).border = header_border; ws2.cell(4, c).fill = fill_hdr_main
 
-ws2.merge_cells("D4:R4")
-ws2["D4"] = "คะแนนเก็บตามภาระงาน (Assignment 1 - 13 | เต็ม 130 คะแนน)"
+ws2.merge_cells("D4:S4")
+ws2["D4"] = "คะแนนเก็บตามภาระงาน (Assignment 1 - 13 + คะแนนเก็บเพิ่ม | เต็ม 150 คะแนน)"
 ws2["D4"].font = font_super_header; ws2["D4"].fill = fill_hdr_asg; ws2["D4"].alignment = align_header
-for c in range(4, 19): ws2.cell(4, c).border = header_border; ws2.cell(4, c).fill = fill_hdr_asg
+for c in range(4, 20): ws2.cell(4, c).border = header_border; ws2.cell(4, c).fill = fill_hdr_asg
 
-ws2.merge_cells("S4:U4")
-ws2["S4"] = "สอบกลางภาค (เต็ม 100 คะแนน)"
-ws2["S4"].font = font_super_header; ws2["S4"].fill = fill_hdr_mid; ws2["S4"].alignment = align_header
-for c in range(19, 22): ws2.cell(4, c).border = header_border; ws2.cell(4, c).fill = fill_hdr_mid
+ws2.merge_cells("T4:V4")
+ws2["T4"] = "สอบกลางภาค (เต็ม 100 คะแนน)"
+ws2["T4"].font = font_super_header; ws2["T4"].fill = fill_hdr_mid; ws2["T4"].alignment = align_header
+for c in range(20, 23): ws2.cell(4, c).border = header_border; ws2.cell(4, c).fill = fill_hdr_mid
 
-ws2.merge_cells("V4:X4")
-ws2["V4"] = "สอบปลายภาค (เต็ม 100 คะแนน)"
-ws2["V4"].font = font_super_header; ws2["V4"].fill = fill_hdr_fin; ws2["V4"].alignment = align_header
-for c in range(22, 25): ws2.cell(4, c).border = header_border; ws2.cell(4, c).fill = fill_hdr_fin
+ws2.merge_cells("W4:Y4")
+ws2["W4"] = "สอบปลายภาค (เต็ม 100 คะแนน)"
+ws2["W4"].font = font_super_header; ws2["W4"].fill = fill_hdr_fin; ws2["W4"].alignment = align_header
+for c in range(23, 26): ws2.cell(4, c).border = header_border; ws2.cell(4, c).fill = fill_hdr_fin
+
 
 sub_headers_s2 = [
     ("ลำดับที่", fill_hdr_main),
@@ -453,7 +480,8 @@ sub_headers_s2 = [
 ]
 for title, max_p in asg_headers:
     sub_headers_s2.append((f"{title}\n({max_p})", fill_hdr_asg))
-sub_headers_s2.append(("รวมงาน\n(130)", fill_hdr_main))
+sub_headers_s2.append(("คะแนนเก็บเพิ่ม\n(20)", fill_hdr_asg))
+sub_headers_s2.append(("รวมงาน\n(150)", fill_hdr_main))
 sub_headers_s2.append(("ร้อยละ\n(%)", fill_hdr_main))
 
 sub_headers_s2.append(("ข้อกา\nปรนัย (40)", fill_hdr_mid))
@@ -463,6 +491,7 @@ sub_headers_s2.append(("รวมกลางภาค\n(100)", fill_hdr_main))
 sub_headers_s2.append(("ข้อกา\nปรนัย (40)", fill_hdr_fin))
 sub_headers_s2.append(("ข้อเขียน\nอัตนัย (60)", fill_hdr_fin))
 sub_headers_s2.append(("รวมปลายภาค\n(100)", fill_hdr_main))
+
 
 for col_idx, (h_title, h_fill) in enumerate(sub_headers_s2, start=1):
     cell = ws2.cell(5, col_idx, h_title)
@@ -504,25 +533,33 @@ for s_idx, s in enumerate(students):
         else:
             cell.fill = row_fill
 
-    # Col Q: รวมงาน (130)
-    col_Q = ws2.cell(curr_row, 17, f"=SUM(D{curr_row}:P{curr_row})")
-    col_Q.font = font_bold; col_Q.alignment = align_right; col_Q.fill = row_fill; col_Q.border = thin_border; col_Q.number_format = '0.0'
+    # Col Q: คะแนนเก็บเพิ่ม (20)
+    extra_val = extra_scores.get(s['sid3'], 0.0)
+    col_Q_extra = ws2.cell(curr_row, 17, extra_val)
+    col_Q_extra.font = font_data; col_Q_extra.alignment = align_center; col_Q_extra.border = thin_border
+    col_Q_extra.number_format = '0.0' if extra_val % 1 != 0 else '0'
+    col_Q_extra.fill = fill_zero if extra_val == 0.0 else row_fill
 
-    # Col R: ร้อยละ (%)
-    col_R = ws2.cell(curr_row, 18, f"=ROUND((Q{curr_row}/130)*100, 2)")
-    col_R.font = font_bold; col_R.alignment = align_right; col_R.fill = row_fill; col_R.border = thin_border; col_R.number_format = '0.00'
+    # Col R: รวมงาน (150)
+    col_R = ws2.cell(curr_row, 18, f"=SUM(D{curr_row}:Q{curr_row})")
+    col_R.font = font_bold; col_R.alignment = align_right; col_R.fill = row_fill; col_R.border = thin_border; col_R.number_format = '0.0'
 
-    # Midterm
+    # Col S: ร้อยละ (%)
+    col_S = ws2.cell(curr_row, 19, f"=ROUND((R{curr_row}/150)*100, 2)")
+    col_S.font = font_bold; col_S.alignment = align_right; col_S.fill = row_fill; col_S.border = thin_border; col_S.number_format = '0.00'
+
+    # Midterm (T, U, V)
     m_obj, m_subj = midterm_scores.get(s['sid3'], (0.0, 0.0))
-    cS = ws2.cell(curr_row, 19, m_obj); cS.font = font_data; cS.alignment = align_center; cS.fill = row_fill; cS.border = thin_border; cS.number_format = '0.0' if m_obj % 1 != 0 else '0'
-    cT = ws2.cell(curr_row, 20, m_subj); cT.font = font_data; cT.alignment = align_center; cT.fill = row_fill; cT.border = thin_border; cT.number_format = '0.0' if m_subj % 1 != 0 else '0'
-    cU = ws2.cell(curr_row, 21, f"=SUM(S{curr_row}:T{curr_row})"); cU.font = font_bold; cU.alignment = align_right; cU.fill = row_fill; cU.border = thin_border; cU.number_format = '0.0'
+    cT = ws2.cell(curr_row, 20, m_obj); cT.font = font_data; cT.alignment = align_center; cT.fill = row_fill; cT.border = thin_border; cT.number_format = '0.0' if m_obj % 1 != 0 else '0'
+    cU = ws2.cell(curr_row, 21, m_subj); cU.font = font_data; cU.alignment = align_center; cU.fill = row_fill; cU.border = thin_border; cU.number_format = '0.0' if m_subj % 1 != 0 else '0'
+    cV = ws2.cell(curr_row, 22, f"=SUM(T{curr_row}:U{curr_row})"); cV.font = font_bold; cV.alignment = align_right; cV.fill = row_fill; cV.border = thin_border; cV.number_format = '0.0'
 
-    # Final
+    # Final (W, X, Y)
     f_obj, f_subj = final_scores.get(s['sid3'], (0.0, 0.0))
-    cV = ws2.cell(curr_row, 22, f_obj); cV.font = font_data; cV.alignment = align_center; cV.fill = row_fill; cV.border = thin_border; cV.number_format = '0.0' if f_obj % 1 != 0 else '0'
-    cW = ws2.cell(curr_row, 23, f_subj); cW.font = font_data; cW.alignment = align_center; cW.fill = row_fill; cW.border = thin_border; cW.number_format = '0.0' if f_subj % 1 != 0 else '0'
-    cX = ws2.cell(curr_row, 24, f"=SUM(V{curr_row}:W{curr_row})"); cX.font = font_bold; cX.alignment = align_right; cX.fill = row_fill; cX.border = thin_border; cX.number_format = '0.0'
+    cW = ws2.cell(curr_row, 23, f_obj); cW.font = font_data; cW.alignment = align_center; cW.fill = row_fill; cW.border = thin_border; cW.number_format = '0.0' if f_obj % 1 != 0 else '0'
+    cX = ws2.cell(curr_row, 24, f_subj); cX.font = font_data; cX.alignment = align_center; cX.fill = row_fill; cX.border = thin_border; cX.number_format = '0.0' if f_subj % 1 != 0 else '0'
+    cY = ws2.cell(curr_row, 25, f"=SUM(W{curr_row}:X{curr_row})"); cY.font = font_bold; cY.alignment = align_right; cY.fill = row_fill; cY.border = thin_border; cY.number_format = '0.0'
+
 
 end_row_s2 = start_row_s2 + len(students) - 1
 
@@ -535,12 +572,12 @@ for stat_idx, (label, func, b_style) in enumerate(stat_rows_s1):
     for c in range(1, 4):
         ws2.cell(stat_r, c).border = b_style; ws2.cell(stat_r, c).fill = fill_stat
 
-    for c in range(4, 25):
+    for c in range(4, 26):
         col_letter = get_column_letter(c)
         c_stat = ws2.cell(stat_r, c, f"={func}({col_letter}{start_row_s2}:{col_letter}{end_row_s2})")
-        c_stat.font = font_stat_val; c_stat.alignment = align_right if c in [17, 18, 21, 24] else align_center
+        c_stat.font = font_stat_val; c_stat.alignment = align_right if c in [18, 19, 22, 25] else align_center
         c_stat.fill = fill_stat; c_stat.border = b_style
-        c_stat.number_format = '0.00' if (func == 'AVERAGE' or c == 18) else '0.0'
+        c_stat.number_format = '0.00' if (func == 'AVERAGE' or c == 19) else '0.0'
 
 ws2.freeze_panes = "D6"
 
@@ -549,14 +586,17 @@ ws2.column_dimensions['B'].width = 16
 ws2.column_dimensions['C'].width = 28
 for c in range(4, 17):
     ws2.column_dimensions[get_column_letter(c)].width = 15
-ws2.column_dimensions['Q'].width = 14
-ws2.column_dimensions['R'].width = 13
-ws2.column_dimensions['S'].width = 14
+ws2.column_dimensions['Q'].width = 15  # คะแนนเก็บเพิ่ม
+ws2.column_dimensions['R'].width = 14  # รวมงาน (150)
+ws2.column_dimensions['S'].width = 13  # ร้อยละ
 ws2.column_dimensions['T'].width = 14
-ws2.column_dimensions['U'].width = 15
-ws2.column_dimensions['V'].width = 14
+ws2.column_dimensions['U'].width = 14
+ws2.column_dimensions['V'].width = 15
 ws2.column_dimensions['W'].width = 14
-ws2.column_dimensions['X'].width = 15
+ws2.column_dimensions['X'].width = 14
+ws2.column_dimensions['Y'].width = 15
+
+
 
 
 # ====================================================
